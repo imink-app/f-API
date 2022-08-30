@@ -57,8 +57,8 @@ Now you can access it via `http://ip:9000`. ip needs to be replaced with the ip 
 
 Yes, it's that simple!
 
-* You don't need to root your Android.
-* You don't need to connect to a computer.
+* **You don't need to root your Android.**
+* **You don't need to connect to a computer.**
 
 ### Accessing the f API using adb
 
