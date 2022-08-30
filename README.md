@@ -75,7 +75,7 @@ $ adb -s Your_device_or_avd_name forward tcp:9000 tcp:9000
 
 Now you can access the f API on your computer via `http://127.0.0.1:9000/f`.
 
-## How is this APK made
+## How to make an APK for f API
 
 1. Cracking the signature verification of NSO.
 2. Decompile apk to smali code.
