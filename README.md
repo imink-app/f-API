@@ -4,7 +4,7 @@ This API is a necessary step in the NSO account authorization process. There is 
 
 ## Usage
 
-You can use the f API already used in imink.
+You can use the f API that I have deployed. it is now used for the imink client.
 
 **URL:** `POST` `https://api.imink.app/f`
 
