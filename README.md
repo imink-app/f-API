@@ -58,6 +58,21 @@ Yes, it's that simple!
 * You don't need to root your Android.
 * You don't need to connect to a computer.
 
+### Accessing the f API using adb
+
+If you want to access the f API on your computer, but don't have a local network to access your Android device. You can connect your Android device to your computer with a cable and then use adb to expose the f API to your computer.
+
+```
+$ adb devices
+List of devices attached
+Your_device_or_avd_name     device
+
+$ adb -s Your_device_or_avd_name forward tcp:9000 tcp:9000 
+9000
+```
+
+Now you can access the f API on your computer via `http://127.0.0.1:9000/f`.
+
 ## How is this APK made
 
 1. Cracking the signature verification of NSO.
