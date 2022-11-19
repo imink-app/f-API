@@ -28,7 +28,7 @@ curl -X "POST" "https://api.imink.app/f" \
      -H 'User-Agent: {{ Your app name }}/{{ Your app version }}' \
      -H 'Content-Type: application/json; charset=utf-8' \
      -d $'{
-  "token": "{{ token }}"
+  "token": "{{ token }}",
   "hash_method": {{ 1 or 2 }},
 }'
 ```
