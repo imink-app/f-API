@@ -42,7 +42,7 @@ curl -X "POST" "https://api.imink.app/f" \
 }
 ```
 
-## Deploy your own f API
+## Other f API & Deploy your own f API
 
 ***Please check out this project, it's better than imink f-api!***
 
