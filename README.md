@@ -44,45 +44,6 @@ curl -X "POST" "https://api.imink.app/f" \
 
 ## Deploy your own f API
 
-### Download
+***Please check out this project, it's better than imink f-api!***
 
-I modified the official version of NSO to make a new APK. It is easy to let you create your own f API. you can download the latest version from [Releases](https://github.com/imink-app/f-API/releases).
-
-### How to use
-
-1. Install the APK you downloaded into your Android system and it will show up as the NSO icon.
-2. Launch it.
-
-Now you can access it via `http://ip:9000`. ip needs to be replaced with the ip address of your Android device. The request parameters are exactly the same as `api.imink.app/f`.
-
-Yes, it's that simple!
-
-* **You don't need to root your Android.**
-* **You don't need to connect to a computer.**
-
-### Accessing the f API using adb
-
-If you want to access the f API on your computer, but don't have a local network to access your Android device. You can connect your Android device to your computer with a cable and then use adb to expose the f API to your computer.
-
-```
-$ adb devices
-List of devices attached
-Your_device_or_avd_name     device
-
-$ adb -s Your_device_or_avd_name forward tcp:9000 tcp:9000 
-9000
-```
-
-Now you can access the f API on your computer via `http://127.0.0.1:9000/f`.
-
-## How to make an APK for f API
-
-1. Cracking the signature verification of NSO.
-2. Decompile apk to smali code.
-3. Insert HTTP Server code and call libvoip.so to compute the f code in smali code.
-4. Repackage as apk.
-5. Re-sign.
-
-The tools used are: jarsigner, Apktool, Xpatch, Android Studio.
-
-Now here is just a simple description of the steps. More code and actions I will update in the future.
+https://github.com/samuelthomas2774/nxapi-znca-api
