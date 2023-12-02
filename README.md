@@ -42,7 +42,7 @@ curl -X "POST" "https://api.imink.app/f" \
 }
 ```
 
-**One more things**
+**One more thing**
 
 The f API is always associated with the NSO version number. If the f API has been updated to the latest version but you are still using an old NSO version number, it may result in errors. You can visit https://api.imink.app/config to obtain the latest version number supported by the f API.
 
